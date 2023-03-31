@@ -4,7 +4,7 @@
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
 title: 上海机器人研究所 # Website name
-baseurl: 'https://liang324.github.io/' # Website URL
+baseurl: 'https://robweb-together.github.io/Rob-website/' # Website URL
 copyright: '&copy; 2020-{year} liang324' # Footer text, e.g. '© {year} Me'
 
 ############################
