@@ -1,0 +1,23 @@
+---
+# A Demo section created with the Blank widget.
+# Any elements can be added in the body: https://wowchemy.com/docs/writing-markdown-latex/
+# Add more sections by duplicating this file and customizing to your requirements.
+
+widget: hero  # See https://wowchemy.com/docs/page-builder/
+headless: true  # This file represents a page section.
+weight: 10  # Order that this section will appear.
+title: |
+    
+  
+hero_media: welcome.jpg
+design:
+  # Choose how many columns the section has. Valid values: 1 or 2.
+  columns: '1'
+  # Add custom styles
+  css_style:
+  css_class:
+---
+
+<br>
+
+上海机器人研究所依托上海大学组建，重点围绕特种机器人进行整机研发，突破结构设计、视觉定位、算法优化等核心技术。团队研究项目包括管道机器人、康复机器人、足式机器人等。
