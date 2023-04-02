@@ -1,5 +1,5 @@
 ---
-title: 管道机器人
+title: 机器人控制方向
 date: 2021-10-17
 
 # Featured image
