@@ -4,11 +4,11 @@ widget: pages
 headless: true
 weight: 20
 
-title: Latest News
+title: 最新动态
 subtitle:
 
 content:
-  count: 5
+  count: 3
   filters:
     author: ""
     category: ""

@@ -30,8 +30,8 @@ address:
   country: China
   country_code: Ch
 coordinates:
-  latitude: '37.4275'
-  longitude: '-122.1697' #经度和纬度修改后会报错
+  latitude: '31.317518'
+  longitude: '121.394485' #经度和纬度修改后会报错
 directions: 上海大学宝山校区东区9号楼427
 office_hours:
   - 'Monday 10:00 to 13:00'

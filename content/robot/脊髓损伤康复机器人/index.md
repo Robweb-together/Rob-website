@@ -1,5 +1,5 @@
 ---
-title: 脊髓损伤康复机器人
+title: 机器视觉方向
 date: 2021-10-17
 
 # Featured image
