@@ -15,15 +15,17 @@ V0版本
 - 确定网站平台，AWZ? 
 - 完成项目介绍模板，包括图文格式，指导各个小组完成项目介绍及论文搜集。
 - 页末导航方案
+- 增加奖项页面
 - 网站内嵌日历？
-- 私有页面设置
+- 私有页面设置？
+- member名字如何中文化？
 
 
 ## 技术
 
 ### Installation
 
-1. 安装插件管理平台:  https://chocolatey.org/install#individual
+1. [安装插件管理平台](https://chocolatey.org/install#individual):  https://chocolatey.org/install#individual
 windows powershell: Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
 
 2. 安装 golang, hugo: 
@@ -31,6 +33,6 @@ windows powershell: choco install golang hugo-extended
 
 3. 试运行
 
-4. Markdown Editor: Typora : https://sspai.com/post/54912
+4. Markdown Editor: [Typora](https://sspai.com/post/54912) : https://sspai.com/post/54912
 
-5. 网站模板：https://wowchemy.com/docs/content/page-features/
+5. [网站模板](https://wowchemy.com/docs/content/page-features/)：https://wowchemy.com/docs/content/page-features/
