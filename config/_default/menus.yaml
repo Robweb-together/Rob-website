@@ -16,6 +16,9 @@ main:
   - name: 论文 #Publication
     url: publication
     weight: 40
+  - name: 获奖 #Awards
+    url: awards
+    weight: 45
   - name: 成员 # Member
     url: member
     weight: 50
