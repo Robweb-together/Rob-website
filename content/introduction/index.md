@@ -1,4 +1,19 @@
-## 关于实验室
+---
+title: 关于实验室
+summary: 实验室简介
+date: "2023-04-01"
+
+reading_time: false  # Show estimated reading time?
+share: false  # Show social sharing links?
+profile: false  # Show author profile?
+comments: false  # Show comments?
+
+# Optional header image (relative to `assets/media/` folder).
+header:
+  caption: ""
+  image: ""
+---
+
 
 上海机器人研究所起源于1980年代。2019年引进马书根教授和袁建军教授，分别担任上海机器人研究所所长和常务副所长。
 
