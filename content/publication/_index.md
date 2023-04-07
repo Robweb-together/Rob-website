@@ -1,6 +1,6 @@
 ---
 title: 论文发表
-view: 4
+view: 2
 
 header:
   caption: ""
