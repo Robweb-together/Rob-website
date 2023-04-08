@@ -1,12 +1,12 @@
 ---
 # Display name
-title: JIA Wenchuan
+title: HU Zhengtao
 
 # Chinese
-titleC: 贾文川
+titleC: 胡正涛
 
 # Order that this section appears on the page.
-weight: 40
+weight: 60
 
 # Is this the primary user of the site?
 superuser: false
@@ -14,34 +14,22 @@ superuser: false
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- 教师 #Principal Investigators
+- 合作研究者 # Research Collaborator
 
 # Role/position
-role: 讲师
+role: 特任助教
 
 # Organizations/Affiliations
 organizations:
-- name: 上海大学
+- name: 大阪大学
 
 # Short bio (displayed in user profile at end of posts)
-bio: 讲师，机电技术，人工智能
+bio: 大阪大学博士后，研究机器人操作
 
 interests:
-- 智能移动机器人
-- 机电产品数字化设计
-- 腿足机器人
+- 机器人抓取
+- 任务规划
 
-education:
-  courses:
-  - course: 博士，机械电子工程
-    institution: 华中科技大学
-    year: 2011
-  - course: 硕士，机械电子工程
-    institution: 华中科技大学
-    year: 2006
-  - course: 学士，机械设计制造及其自动化
-    institution: 华中科技大学
-    year: 2003
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
@@ -55,11 +43,11 @@ education:
 #  link: files/cv.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: "lovvchris@shu.edu.cn"
+# email: "lovvchris@shu.edu.cn"
 
 # Highlight the author in author lists? (true/false)
 highlight_name: false
 
 ---
 
-博士，上海大学机电工程与自动化学院讲师。主攻专业：智能移动机器人，机电产品数字化设计。
+I am a reseach assistant professor at Harada Lab, the School of Engineering Science, Osaka University. I obtained my PhD in Robotics from the same lab, supervised by Professor Wan Weiwei and Harada Kensuke from 2018 to 2022. Prior to this, I got my bachelor (2015) and master degree (2018) from Xi'an Jiaotong University, China, my supervisor was Zhou Qulan. I also got the double master degree (2018) from Tokushima University, Japan, supervised by Deguchi Yoshihiro. I am working on robotic manipulation.
