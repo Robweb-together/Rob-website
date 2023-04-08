@@ -20,10 +20,9 @@ twitter: ''
 
 # Contact (edit or remove options as required)
 
-email: test@example.org
-phone: 888 888 88 88
+email: shubot@outlook.com
 address:
-  street: 上海市宝山区南陈路333号
+  street: 南陈路333号
   city: 上海市
   region: 中国
   postcode: '200444'
@@ -32,11 +31,11 @@ address:
 coordinates:
   latitude: '31.317518'
   longitude: '121.394485' #经度和纬度修改后会报错
-directions: 上海大学宝山校区东区9号楼427
+directions: 上海大学宝山校区东区9号楼427室
 office_hours:
   - 'Monday 10:00 to 13:00'
   - 'Wednesday 09:00 to 10:00'
-appointment_url: 'https://calendly.com'
+# appointment_url: 'https://calendly.com'
 contact_links:
 #  - icon: comments
 #    icon_pack: fas
@@ -71,7 +70,7 @@ show_related:
   project: true
   publication: true
   talk: true
-reading_time: true
+reading_time: false
 section_pager: false
 sharing: true
 copyright_license:

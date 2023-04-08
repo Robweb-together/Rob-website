@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Robot
+title: HuBot
 
 # Chinese
 titleC: 机器人
