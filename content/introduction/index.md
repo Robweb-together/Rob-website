@@ -11,8 +11,10 @@ comments: false  # Show comments?
 # Optional header image (relative to `assets/media/` folder).
 header:
   caption: ""
-  image: ""
+  image: "pan_view"
 ---
+
+![screen reader text](pan_view.jpg)
 
 
 上海机器人研究所起源于1980年代。2019年引进马书根教授和袁建军教授，分别担任上海机器人研究所所长和常务副所长。

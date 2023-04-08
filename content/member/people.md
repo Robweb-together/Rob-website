@@ -19,10 +19,11 @@ content:
   - 教师 #Principal Investigators
   - 科研人员 #Researchers
   - 研究生 #Graduate Students
-  - 管理员 #Administrator
   - 合作研究者 #Collaborators
   - 访问学者 #Visitors
-  - 校友 #Alumni
+  - 校友 #Alumni  
+  - 管理员 #Administrator
+
 design:
   show_interests: false
   show_role: true
