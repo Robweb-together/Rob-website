@@ -14,7 +14,7 @@ superuser: false
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- 合作研究者 # Research Collaborator
+- 合作研究者 #Collaborators
 
 # Role/position
 role: 特任助教
