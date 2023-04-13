@@ -7,6 +7,7 @@ title: 上海机器人研究所 # Website name
 baseurl: 'https://robweb-together.github.io/' # Website URL
 copyright: '&copy; 2018-{year} SRI-Lab' # Footer text, e.g. '© {year} Me'
 
+
 ############################
 ## LANGUAGE
 ############################
