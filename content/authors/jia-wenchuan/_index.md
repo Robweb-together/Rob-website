@@ -1,6 +1,6 @@
 ---
 # Display name
-title: JIA Wenchuan
+title: 贾文川
 
 # Chinese
 titleC: 贾文川

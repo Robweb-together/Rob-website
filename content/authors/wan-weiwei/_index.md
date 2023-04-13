@@ -17,7 +17,7 @@ user_groups:
 - 合作研究者 #Collaborators
 
 # Role/position
-role: 副教授
+role: 日本大阪大学副教授
 
 # Organizations/Affiliations
 organizations:

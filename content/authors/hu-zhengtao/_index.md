@@ -17,7 +17,7 @@ user_groups:
 - 合作研究者 #Collaborators
 
 # Role/position
-role: 特任助教
+role: 日本大阪大学助教
 
 # Organizations/Affiliations
 organizations:
