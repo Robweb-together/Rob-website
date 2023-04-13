@@ -1,6 +1,6 @@
 ---
 # Display name
-title: YUAN Jianjun
+title: 袁建军
 
 # Chinese
 titleC: 袁建军

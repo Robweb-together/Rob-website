@@ -1,6 +1,6 @@
 ---
 # Display name
-title: BAO Sheng
+title: 鲍晟
 
 # Chinese
 titleC: 鲍晟
