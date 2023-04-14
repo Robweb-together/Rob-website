@@ -3,7 +3,7 @@
 # Hugo Documentation: https://gohugo.io/getting-started/configuration/#all-configuration-settings
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
-title: 上海机器人研究所 # Website name
+title: 上大机器人创新实验室 # Website name
 baseurl: 'https://robweb-together.github.io/' # Website URL
 copyright: '&copy; 2018-{year} SRI-Lab' # Footer text, e.g. '© {year} Me'
 
