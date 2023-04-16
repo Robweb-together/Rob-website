@@ -11,10 +11,10 @@ comments: false  # Show comments?
 # Optional header image (relative to `assets/media/` folder).
 header:
   caption: ""
-  image: "pan_view"
+  image: ""
 ---
 
-![screen reader text](pan_view.jpg)
+![labview](pan_view.jpg)
 
 
 上海机器人研究由上海市高等教育局（现上海市教育委员会）于1988年在上海大学校园内成立。2019年引进马书根教授和袁建军教授，分别担任上海机器人研究所所长和常务副所长。

@@ -8,7 +8,7 @@ title: 最新动态
 subtitle:
 
 content:
-  count: 3
+  count: 4
   filters:
     author: ""
     category: ""

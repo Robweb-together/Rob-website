@@ -9,6 +9,7 @@ rm -rf public
 # 打包。even 是主题
 hugo # if using a theme, replace with `hugo -t <YOURTHEME>`
 
+# 添加DNS文件
 cp ./to_public/CNAME ./public/CNAME
 cp ./to_public/README.md ./public/README.md
 
@@ -27,8 +28,8 @@ if [ $# -eq 1 ]
 fi
 git commit -m "$msg"
 
-# 推送到githu  
-# nusr.github.io 只能使用 master分支
+# 推送到github  
+# master到main分支
 git push -f https://github.com/Robweb-together/robweb-together.github.io.git master:main
 
 # 回到原文件夹
