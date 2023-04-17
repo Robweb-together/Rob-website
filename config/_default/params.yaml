@@ -15,14 +15,14 @@ font_size: L
 site_type: Organization
 local_business_type: ''
 org_name: ''
-description: My research group description.
+description: 上海机器人研究所实验室。
 twitter: ''
 
 # Contact (edit or remove options as required)
 
-email: shubot@outlook.com
+email: shurobot@outlook.com
 address:
-  street: 南陈路333号
+  street: 宝山区上大路99号
   city: 上海市
   region: 中国
   postcode: '200444'

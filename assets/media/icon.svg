@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="100mm"
+   height="100mm"
+   viewBox="0 0 100 100"
+   version="1.1"
+   id="svg327"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   sodipodi:docname="SRI_logo.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview329"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="1.1893044"
+     inkscape:cx="393.92774"
+     inkscape:cy="406.96057"
+     inkscape:window-width="2256"
+     inkscape:window-height="1394"
+     inkscape:window-x="-12"
+     inkscape:window-y="-12"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs324" />
+  <g
+     inkscape:label="图层 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-40.54218,-24.249126)">
+    <rect
+       style="fill:#ffffff;stroke:none;stroke-width:0.264583"
+       id="rect601"
+       width="100"
+       height="100"
+       x="40.542179"
+       y="24.249126"
+       rx="15" />
+    <text
+       xml:space="preserve"
+       style="font-size:83.3494px;font-family:'Roboto Mono';-inkscape-font-specification:'Roboto Mono';fill:none;stroke:#ff0000;stroke-width:0.868222"
+       x="38.627441"
+       y="95.725998"
+       id="text657"
+       inkscape:export-filename="text657.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan655"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:83.3494px;font-family:'Roboto Mono';-inkscape-font-specification:'Roboto Mono Bold';fill:#000000;stroke:none;stroke-width:0.868222"
+         x="38.627441"
+         y="95.725998"><tspan
+           style="font-size:55.5662px;stroke-width:0.868222"
+           id="tspan271">SR</tspan><tspan
+           style="font-size:64.8274px;stroke-width:0.868222"
+           id="tspan275">i</tspan></tspan></text>
+  </g>
+</svg>
