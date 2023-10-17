@@ -1,6 +1,6 @@
 ---
 # Display name
-title: HU Zhengtao
+title: 胡正涛
 
 # Chinese
 titleC: 胡正涛
@@ -14,27 +14,50 @@ superuser: false
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- 合作研究者 #Collaborators
+- 教师 #Principal Investigators
 
 # Role/position
-role: 日本大阪大学助教
+role: 讲师
 
 # Organizations/Affiliations
 organizations:
-- name: 大阪大学
+- name: 上海大学
 
 # Short bio (displayed in user profile at end of posts)
-bio: 大阪大学博士后，研究机器人操作
+bio: 讲师，机器人技术，自动化装备
 
 interests:
-- 机器人抓取
-- 任务规划
+- 机器人操作规划
+- 机器人机构学
+- 软体机器人
+- 任务-运动 协同规划
 
+education:
+  courses:
+  - course: 特任助教
+    institution: 日本大阪大学
+    year: 2023
+  - course: 博士
+    institution: 日本大阪大学
+    year: 2022
+  - course: 硕士
+    institution: 日本德岛大学
+    year: 2018
+  - course: 硕士
+    institution: 西安交通大学
+    year: 2018
+  - course: 学士
+    institution: 西安交通大学
+    year: 2015
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
+social:
+- icon: orcid
+  icon_pack: ai
+  link: https://huzhengtao.work/
 
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
@@ -43,11 +66,11 @@ interests:
 #  link: files/cv.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-# email: "lovvchris@shu.edu.cn"
+email:
 
 # Highlight the author in author lists? (true/false)
 highlight_name: false
 
 ---
 
-I am a reseach assistant professor at Harada Lab, the School of Engineering Science, Osaka University. I obtained my PhD in Robotics from the same lab, supervised by Professor Wan Weiwei and Harada Kensuke from 2018 to 2022. Prior to this, I got my bachelor (2015) and master degree (2018) from Xi'an Jiaotong University, China, my supervisor was Zhou Qulan. I also got the double master degree (2018) from Tokushima University, Japan, supervised by Deguchi Yoshihiro. I am working on robotic manipulation.
+胡正涛，工学博士，上海大学讲师。长期从事机器人智能装配，路径与运动规划，机构创新等机器人相关的研究，发表包括IEEE Transactions on Roboitcs、IEEE Transactions on Automation Science and Engineering在内的SCI论文6篇。
