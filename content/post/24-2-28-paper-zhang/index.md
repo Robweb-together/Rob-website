@@ -1,9 +1,9 @@
 ---
-title: 博士生章弘凯发表论文
+title: 实验室机器视觉方向研究成果在RAL在线发表
 date: 2024-02-28
 ---
 
-博士生章弘凯在《IEEE Robotics and Automation Letters》期刊发表论文《LVIO-Fusion:Tightly-Coupled LiDAR-Visual-Inertial Odometry and Mapping in Degenerate Environments》
+《LVIO-Fusion:Tightly-Coupled LiDAR-Visual-Inertial Odometry and Mapping in Degenerate Environments》
 
 <!--more-->
 
