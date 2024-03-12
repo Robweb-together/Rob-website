@@ -41,8 +41,7 @@ featured: true
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 image:
-  caption: ' (a) Process of projecting map points onto the image. (b) Green points are the projected points. (c) 3D map of the challenging scenarios that contain illumination change, altitude change,
- and scale change.  (d)The details of the 3D map.'
+  caption: ' (a) Process of projecting map points onto the image. (b) Green points are the projected points. (c) 3D map of the challenging scenarios that contain illumination change, altitude change, and scale change.  (d)The details of the 3D map.'
   focal_point: ""
   preview_only: false
 
