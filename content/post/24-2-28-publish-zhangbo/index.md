@@ -1,6 +1,6 @@
 ---
 title: 实验室机器视觉方向研究成果在RAL在线发表
-date: 2024-2-28
+date: 2024-02-28
 ---
 
 《LVIO-Fusion:Tightly-Coupled LiDAR-Visual-Inertial Odometry and Mapping in Degenerate Environments
