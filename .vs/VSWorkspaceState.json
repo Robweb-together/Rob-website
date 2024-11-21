@@ -1,8 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\content\\member"
+    "\\content",
+    "\\content\\member",
+    "\\content\\post"
   ],
-  "SelectedNode": "\\content",
+  "SelectedNode": "\\content\\member\\students.md",
   "PreviewInSolutionExplorer": false
 }
