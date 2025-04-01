@@ -1,0 +1,113 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>hugo-extended</id>
+    <version>0.111.0</version>
+    <title>Hugo Extended</title>
+    <authors>Hugo Authors</authors>
+    <owners>pauby</owners>
+    <licenseUrl>https://github.com/gohugoio/hugo/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://gohugo.io</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/pauby/ChocoPackages@e175f741/icons/hugo-extended.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Hugo is a static HTML and CSS website generator written in Go. It is optimized for speed, ease of use, and configurability. Hugo takes a directory with content and templates and renders them into a full HTML website.
+
+Hugo relies on Markdown files with front matter for metadata, and you can run Hugo from any directory. This works well for shared hosts and other systems where you don’t have a privileged account.
+
+Hugo renders a typical website of moderate size in a fraction of a second. A good rule of thumb is that each piece of content renders in around 1 millisecond.
+
+Hugo is designed to work well for any kind of website including blogs, tumbles, and docs.
+
+**NOTE:**: This extended version allows native Sass compilation.
+
+**NOTE**: This is an automatically updated package. If you find it is out of date by more than a week, please contact the maintainer(s) and let them know the package is no longer updating correctly.</description>
+    <summary>Hugo is one of the most popular open-source static site generators. With its amazing speed and flexibility, Hugo makes building websites fun again. This extended version allows native Sass compilation.</summary>
+    <releaseNotes>**These release notes are a little bit of a work in progress at the moment. I have had all sorts of build problems with this release, so once I finally figured out what was wrong (and the culprit was a breaking change in Go's `rand.Shuffle`), I just had to push the publish button. I (@bep) will wrap this up tomorrow. But it's a great release!**
+
+Notable news in this release are
+
+*  Indexing of page fragments (headings) in Related Content. This also gives a new `.Fragments` data structure on `Page` that can be used to build table of contents, check if a fragment exists on a given page or if it's duplicated  (#10711, #9339, #10725) .
+* A new  **page** template func (#9339)
+* To be continued.
+
+## Bug fixes
+
+* strings: fix Truncate behavior for formatted html c0d15a28 @khayyamsaleem #10399 
+* Fix shortcode error when closing without .Inner ae48507d @bep #10672 
+* create: Fix typo in error message 2dad13c0 @aaronhooper 
+* resource_transformers/tocss: Fixed hugo:vars casting a1a9c08b @acclassic #10632 
+* markup: Fix linenos codeblock hl option case regression 73ece30d @khayyamsaleem #10682 
+* Fix slow HTML elements collector for the pre case f9fc0e04 @bep #10698 
+* commands: Fix server url rewrites (http status 200) 1477d0ba @bep #10668 
+* Fix description of collections.Uniq 4ccc8cfb @jmooring 
+* Fix shortcode detection in RenderString 16885833 @bep #10654 
+
+## Improvements
+
+* Replace deprecated ioutil with io and os d453c127 @alexandear 
+* build: Bump build images 60e6fa79 @bep 
+* build: Update Linux ARM build image 7e51ba03 @bep 
+* tpl/tplimpl: Remove the Google News internal template 66f94b49 @jmooring 
+* tpl/strings: Adjust benchmark 2a61910e @bep 
+* tpl/strings: Add BenchmarkTruncate 079d1b65 @bep 
+* Misc ioutil deprecation adjustments a669467d @bep #10732 
+* Remove unused temp directory e3144103 @alexandear 
+* exif: Return the proper exposure time value in some special cases 39cc3a2a @WaltCuller #10738 
+* Add a page template func ce524d0b @bep #9339 
+* dartsass: Import CSS without extension at compile time 2662faf6 @jmooring #10592 
+* Split parse and render for Goldmark 271318ad @bep #10750 
+* related: Add config option cardinalityThreshold e442a63b @bep #10744 
+* Throw an error when shortcode is expected to be closed 7d78a498 @bep #10675 
+* Add some shortcode testcases 0dbeac80 @bep #10671 
+* sass: Remove some unused leftover code b99d073c @bep 
+* resources/sass: Remove debug statements e965cb67 @jmooring #10470 
+* page: Move the cache double check right after the lock 586fea0d @bep 
+* page: Add some concurrency to the building of the related page index fa2d7adf @bep #10711 
+* related: Adjust benchmark 4346987f @bep 
+* tocss: Simplify the hugo:vars type handling ecf3cd51 @bep #10632 
+* Adjust tests for GO 1.20 6abd15e7 @bep #10691 
+* tpl/internal: Sync Go template src to Go 1.20 094135ff @bep #10691 
+* Add page fragments support to Related 90da7664 @bep #10711 #9339 #10725 
+* related: Adjust benchmark 0afec0a9 @bep 
+* related: Add benchmark 28540ed1 @bep 
+* tpl/collections: Improve error message in Index 9af78d11 @bep 
+* Make the HTML collector parsing more robust d33a7ebc @bep #10698 
+* tpl/strings: Add strings.ContainsNonSpace fce08904 @bep 
+* publisher: Add benchmark 4f4a1c00 @bep 
+* Update CONTRIBUTING.md e2cfc3d5 @bep 
+* Only invoke a given cached partial once 4ef9baf5 @bep #4086 #9588 
+
+## Dependency Updates
+
+* Revert "build(deps): bump gocloud.dev from 0.24.0 to 0.28.0 (#10610)" db9f74d2 @bep #10770 
+* build(deps): bump github.com/tdewolff/parse/v2 from 2.6.4 to 2.6.5 4d36b99a @dependabot[bot] 
+* build(deps): bump github.com/mattn/go-isatty from 0.0.16 to 0.0.17 807237bc @dependabot[bot] 
+* build(deps): bump golang.org/x/image 79b03b3f @dependabot[bot] 
+* build(deps): bump golang.org/x/net from 0.4.0 to 0.7.0 4bf91b97 @dependabot[bot] 
+* Revert "build(deps): bump github.com/getkin/kin-openapi from 0.110.0 to 0.114.0" 2a364cca @bep 
+* deps: Upgrade github.com/yuin/goldmark v1.5.3 =&gt; v1.5.4 3fb2417c @jmooring #10661 
+* build(deps): bump github.com/getkin/kin-openapi from 0.110.0 to 0.114.0 87c78bd3 @dependabot[bot] 
+* deps: Upgrade github.com/alecthomas/chroma v2.4.0 =&gt; v2.5.0 69c369e1 @jmooring #9890 #10692 
+* build(deps): bump github.com/kyokomi/emoji/v2 from 2.2.10 to 2.2.11 dd37163f @dependabot[bot] 
+* build(deps): bump gocloud.dev from 0.24.0 to 0.28.0 (#10610) c3a59a7d @dependabot[bot] #9778 
+
+## Documentation
+
+*  docs: Another fix related docs example d5601e83 @bep 
+* docs: Fix related docs example cedd04db @bep 
+* cods: Regen docs helper a56b9071 @bep 
+* Move the Related doc counter to prevent a race 5c317c55 @bep #10768 
+* Update README.md 93ed6e44 @bep 
+
+## Build Setup
+
+* build: Update to Go 1.20 4801e2e8 @bep #10691 
+* snap: Install dart-sass-embedded for 32-bit ARM (armhf) too 76c6140c @anthonyfok 
+* snap: Add read access for ~/.gitconfig.local and ~/.config/git/* too d4482e8b @anthonyfok #10337</releaseNotes>
+    <tags>hugo blog static website</tags>
+    <projectSourceUrl>https://github.com/gohugoio/hugo</projectSourceUrl>
+    <packageSourceUrl>https://github.com/pauby/ChocoPackages/tree/master/automatic/hugo-extended</packageSourceUrl>
+    <docsUrl>https://gohugo.io/documentation/</docsUrl>
+    <bugTrackerUrl>https://github.com/gohugoio/hugo/issues</bugTrackerUrl>
+  </metadata>
+</package>

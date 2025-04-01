@@ -1,0 +1,4 @@
+﻿C:\ProgramData\chocolatey\lib\hugo-extended\tools\README.md
+C:\ProgramData\chocolatey\lib\hugo-extended\tools\LICENSE
+C:\ProgramData\chocolatey\lib\hugo-extended\tools\hugo.exe
+

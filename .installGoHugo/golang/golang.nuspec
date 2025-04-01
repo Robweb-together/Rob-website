@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>golang</id>
+    <version>1.24.1</version>
+    <title>Go Programming Language</title>
+    <authors>Robert Griesemer, Rob Pike, Ken Thompson</authors>
+    <owners>mikeee</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>https://golang.org/LICENSE</licenseUrl>
+    <projectUrl>https://golang.org/</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/mikeee/ChocoPackages/icons/golang.png</iconUrl>
+    <description>![Gopher Image](https://cdn.jsdelivr.net/gh/mikeee/ChocoPackages/images/golang/gopher.png)
+
+The Go programming language is an open source project to make programmers more productive.
+
+Go is expressive, concise, clean, and efficient. Its concurrency mechanisms make it easy to write programs that get the most out of multicore and networked machines, while its novel type system enables flexible and modular program construction. Go compiles quickly to machine code yet has the convenience of garbage collection and the power of run-time reflection. It's a fast, statically typed, compiled language that feels like a dynamically typed, interpreted language.
+
+**NOTE**: This package is automatically updated. If it is out of date and there is no newer package submitted, please use the `Contact Maintainers` functionality to alert me.</description>
+    <summary>The Go programming language is an open source project to make programmers more productive.</summary>
+    <releaseNotes>https://golang.org/doc/devel/release.html</releaseNotes>
+    <copyright>Copyright (c) 2009 The Go Authors.</copyright>
+    <tags>golang go programming language fast google</tags>
+    <projectSourceUrl>https://github.com/golang/go</projectSourceUrl>
+    <packageSourceUrl>https://github.com/mikeee/ChocoPackages/tree/master/automatic/golang</packageSourceUrl>
+    <docsUrl>https://golang.org/doc/</docsUrl>
+    <mailingListUrl>https://groups.google.com/forum/#!forum/golang-nuts</mailingListUrl>
+    <bugTrackerUrl>https://github.com/golang/go/issues</bugTrackerUrl>
+  </metadata>
+</package>
