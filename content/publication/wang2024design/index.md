@@ -9,7 +9,7 @@ authors:
 - Bao Sheng
 - Yuan Jianjun
 
-date: "2024-9-13"
+date: "2024-09-13"
 doi: "10.1109/RCAR61438.2024.10671217"
 
 links:

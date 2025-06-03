@@ -8,7 +8,7 @@ authors:
 - Du Liang
 - Yuan Jianjun
 
-date: "2024-8-19"
+date: "2024-08-19"
 doi: "10.1109/ICMA61710.2024.10633028"
 
 links:
