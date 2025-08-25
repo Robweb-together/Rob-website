@@ -35,8 +35,7 @@ module:
 
 enableGitInfo: false
 summaryLength: 30
-pagination:
-  pagerSize: 10
+paginate: 10
 enableEmoji: true
 enableRobotsTXT: true
 footnotereturnlinkcontents: <sup>^</sup>
@@ -84,6 +83,3 @@ security:
     getenv:
       - ^HUGO_
       - ^WC_
-
-googleAnalytics: "G-0000000000"
-
