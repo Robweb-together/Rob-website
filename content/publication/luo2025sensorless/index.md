@@ -1,13 +1,13 @@
 ---
 title: "Sensorless Payload Estimation of Serial Robots Using an Improved Disturbance Kalman Filter with a Variable-Parameter Noise Model"
 authors:
-- Ruiqing Luo
-- Jianjun Yuan
-- Yimin He
-- Sheng Bao
-- Liang Du
-- Zhengtao Hu
-
+- Luo, Ruiqing
+- Yuan, Jianjun
+- He, Yimin
+- Bao, Sheng
+- Du, Liang
+- Hu, Zhengtao
+  
 date: "2025-11-23"
 doi: "10.3390/act14120568"
 
@@ -27,7 +27,7 @@ publication_short: "*Actuators*"
 
 abstract: The accurate estimation of the end-effector load force is essential in dynamic robotic scenarios, especially when the end-effector payload varies, to ensure safe and stable physical interaction among humans, robots, and environments. Currently, most applications still rely on payload calibration schemes, but existing calibration techniques often struggle to balance efficiency and accuracy. Moreover, current-based payload estimation methods, which are a commonly used and low-cost technique, face practical challenges such as non-negligible noise. To handle these issues, we propose a sensorless scheme based on a modified disturbance Kalman filter for accurately estimating the load force exerted on robots. Specifically, we introduce the dynamic model of robots that incorporates the nonlinear friction related to velocity and load. Subsequently, a generalized disturbance observer for the robot dynamics is adopted to avoid the measurement noise of joint acceleration. Considering the influence of friction and velocity on the noise parameters in the Kalman filter, a variable-parameter noise model is established. Finally, experimental results demonstrate that the proposed method achieves better performance in terms of accuracy, response, and overshoot suppression compared to the existing methods.
 # Summary. An optional shortened abstract.
-summary: The accurate estimation of the end-effector load force is essential in dynamic robotic scenarios, especially when the end-effector payload varies, to ensure safe and stable physical interaction among humans, robots, and environments. Currently, most applications still rely on payload calibration schemes, but existing calibration techniques often struggle to balance efficiency and accuracy. Moreover, current-based payload estimation methods, which are a commonly used and low-cost technique, face practical challenges such as non-negligible noise. To handle these issues, we propose a sensorless scheme based on a modified disturbance Kalman filter for accurately estimating the load force exerted on robots. Specifically, we introduce the dynamic model of robots that incorporates the nonlinear friction related to velocity and load. Subsequently, a generalized disturbance observer for the robot dynamics is adopted to avoid the measurement noise of joint acceleration. Considering the influence of friction and velocity on the noise parameters in the Kalman filter, a variable-parameter noise model is established. Finally, experimental results demonstrate that the proposed method achieves better performance in terms of accuracy, response, and overshoot suppression compared to the existing methods.
+summary: In the paper, we present a novel sensorless disturbance Kalman filter DKF for accurately estimating the different payload exerted on the end-effector of serial robots. The DKF employs a generalized momentum-based dynamic model of robots that incorporates velocity- and load-dependent nonlinear friction, achieving superior performance in external force estimation. A classic Kalman filter framework is adopted to effectively implement the approach. Furthermore, the influence of load, friction, and velocities on noise parameters within the Kalman filtering algorithm is explicitly considered through a variable-parameter modeling of the noise term, thereby enhancing the overall performance and adaptability of the DKF. Comparative experimental results of multiple external load observations for the robotic end-effector demonstrate that the proposed OKF observer achieves significant improvements in dynamic performance, such as response speed and overshoot, over both the BKF observer and other existing methods. In the design of the external load observer for robotic end-effectors, our study only addresses loads with constant or slowly varying mass, which limits application to highly dynamic scenarios. In practice, loads may change unpredictably in more complex ways. In future work, we will extend this research to more complex and dynamic loading conditions. Moreover, we plan to integrate unidirectional pressure sensors, which could assist in integrating the DKF into a force controller, enabling tasks like collision detection with payloads and assembly.
 tags:
 - sensorless force estimation
 - disturbance observer
