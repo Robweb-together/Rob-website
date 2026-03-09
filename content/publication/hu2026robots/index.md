@@ -8,7 +8,7 @@ authors:
 - Wan, Weiwei
 - Kensuke Harada
   
-date: "2026-2-16"
+date: "2026-02-16"
 doi: "10.3390/act14120568"
 
 links:
@@ -40,7 +40,7 @@ featured: true
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 image:
-  caption: '(a) Prototype of the proposed robotic finger equipped on a commercial gripper. (b) The tiny pins allow the insertion into the narrow space between neighbors. (c) Grasping a gear from a meshed gear cluster(c.1). Top view of clustered gears (c.2). The fingers inserted into the clearance and gripped it from the cluster (c.3).'
+  caption: 'Experimental Setup: the seven-DOF collaborative robot from SINSUN is equipped with a Beckhoff C6320-30 industrial PC running the Windows platform.'
   focal_point: ""
   preview_only: false
 
